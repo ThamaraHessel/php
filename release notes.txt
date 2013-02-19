@@ -1,0 +1,2 @@
+==== 2.1.2 ====
+Corrigido : API abortava a requisição se a geração de log estivesse ativa e o usuário não possuisse arquivo para geração de log nem permissão de escrita e gravação para o arquivo.
