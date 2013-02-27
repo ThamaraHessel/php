@@ -6,7 +6,7 @@ v.2.1.3
 
 = Descrição =
 
-A biblioteca PagSeguro em PHP é um conjunto de classes de domínio que facilitam o desenvolvedor PHP na utilização das funcionalidades que o PagSeguro oferece na forma de APIs. Com a biblioteca instalada e configurada, você pode facilmente integrar funcionalidades como:
+A biblioteca PagSeguro em PHP é um conjunto de classes de domínio que facilitam, para o desenvolvedor PHP, a utilização das funcionalidades que o PagSeguro oferece na forma de APIs. Com a biblioteca instalada e configurada, você pode facilmente integrar funcionalidades como:
 
 	- Criar requisição de pagamento;
 	- Consultar transações por código;
@@ -50,7 +50,7 @@ Informações adicionais podem ser obtidas em: https://pagseguro.uol.com.br/v2/gui
 v2.1.3
 Correção: A requisição era abortada se a geração de log estivesse ativa e o usuário não possuisse arquivo para geração de log nem permissão de escrita e leitura para o arquivo;
 
-v1.0 - v2.1.2
+v2.0.0 - v2.1.2
 Classes de domínios que representam pagamentos, notificações e transações;
 Criação de checkouts via API;
 Controller para processar notificações de pagamento enviadas pelo PagSeguro;
