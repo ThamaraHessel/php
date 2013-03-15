@@ -1,7 +1,7 @@
-***********
+---------------------------------------------
 Biblioteca de integração PagSeguro em PHP
-v.2.1.3
-***********
+v.2.1.4
+---------------------------------------------
 
 
 = Descrição =
@@ -47,6 +47,9 @@ Informações adicionais podem ser obtidas em: https://pagseguro.uol.com.br/v2/gui
 
 = Changelog =
 
+v2.1.4
+Adicionado : Classe para manipulação de moedas permitidas nas transações com o PagSeguro.
+
 v2.1.3
 Correção: A requisição era abortada se a geração de log estivesse ativa e o usuário não possuisse arquivo para geração de log nem permissão de escrita e leitura para o arquivo;
 
@@ -58,7 +61,7 @@ Módulo de consulta de transações.
 
 
 = NOTAS =
-	
+
 	- Certifique-se que o email e o token informados estejam relacionados a uma conta que possua o perfil de vendedor ou empresarial.
 	- Certifique-se que tenha definido corretamente o charset de acordo com a codificação (ISO-8859-1 ou UTF-8) do seu sistema. Isso irá prevenir que as transações gerem possíveis erros ou quebras ou ainda que caracteres especiais possam ser apresentados de maneira diferente do habitual.
 	- Para que ocorra normalmente a geração de logs, certifique-se que o diretório e o arquivo de log tenham permissões de leitura e escrita.
